@@ -1,0 +1,28 @@
+<web-app>
+    <servlet>
+        <servlet-name>AddTask</servlet-name>
+        <servlet-class>com.todo.servlet.AddTaskServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddTask</servlet-name>
+        <url-pattern>/AddTask</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateTask</servlet-name>
+        <servlet-class>com.todo.servlet.UpdateTaskServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateTask</servlet-name>
+        <url-pattern>/UpdateTask</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteTask</servlet-name>
+        <servlet-class>com.todo.servlet.DeleteTaskServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteTask</servlet-name>
+        <url-pattern>/DeleteTask</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.referencedLibraries": [
+        "WebContent\\WEB-INF\\lib\\javax.servlet-api-4.0.1.jar",
+        "WebContent\\WEB-INF\\lib\\log4j-api-2.20.0.jar",
+        "WebContent\\WEB-INF\\lib\\log4j-core-2.20.0.jar",
+        "WebContent\\WEB-INF\\lib\\postgresql-42.7.7.jar"
+    ]
+}
